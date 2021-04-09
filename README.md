@@ -15,7 +15,7 @@ I start by finding the most recent date in the data set. Using this date, retrie
 
 I design a query to calculate the total number of stations in the dataset.And a query to find the most active stations and calculate the lowest, highest, and average temperature  for that station.A third query is to retrieve the last 12 months of temperature observation data (TOBS) and the result is shown in histgram. 
 
-   ![station-histogram](Images/station-histogram.png)
+  ![station-histogram](Images/station-histogram.png)
 
 - - -
 
