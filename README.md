@@ -61,42 +61,12 @@ I attempt to find out if there is a meaningful difference between the temperatur
 
 ### Temperature Analysis II
 
-* You are looking to take a trip from August first to August seventh of this year, but are worried that the weather will be less than ideal. Using historical data in the dataset find out what the temperature has previously looked like.
-
-* The starter notebook contains a function called `calc_temps` that will accept a start date and end date in the format `%Y-%m-%d`. The function will return the minimum, average, and maximum temperatures for that range of dates.
-
-* Use the `calc_temps` function to calculate the min, avg, and max temperatures for your trip using the matching dates from a previous year (i.e., use "2017-08-01").
-
-* Plot the min, avg, and max temperature from your previous query as a bar chart.
-
-  * Use "Trip Avg Temp" as the title.
-
-  * Use the average temperature as the bar height (y value).
-
-  * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
+I use the historical data in the dataset find out what the temperature has previously looked like from August first to August seventh . Then I plot the min, avg, and max temperature from the query as a bar chart.
 
     ![temperature](Images/temperature.png)
 
 ### Daily Rainfall Average
 
-* Now that you have an idea of the temperature lets check to see what the rainfall has been, you don't want a when it rains the whole time!
-
-* Calculate the rainfall per weather station using the previous year's matching dates.
-
-  * Sort this in descending order by precipitation amount and list the station, name, latitude, longitude, and elevation.
-
-* Calculate the daily normals. Normals are the averages for the min, avg, and max temperatures. You are provided with a function called `daily_normals` that will calculate the daily normals for a specific date. This date string will be in the format `%m-%d`. Be sure to use all historic TOBS that match that date string.
-
-  * Set the start and end date of the trip.
-
-  * Use the date to create a range of dates.
-
-  * Strip off the year and save a list of strings in the format `%m-%d`.
-
-  * Use the `daily_normals` function to calculate the normals for each date string and append the results to a list called `normals`.
-
-* Load the list of daily normals into a Pandas DataFrame and set the index equal to the date.
-
-* Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
+This is to check what the rainfall has been. I calculated the rainfall per weather station using the previous year's matching dates.I sort this in descending order by precipitation amount and list the station, name, latitude, longitude, and elevation. I calculated the daily normals. Normals are the averages for the min, avg, and max temperatures. I then loaded the list of daily normals into a Pandas DataFrame and set the index equal to the date. Pandas is uded to plot an area plot for the daily normals.
 
   ![daily-normals](Images/daily-normals.png)
