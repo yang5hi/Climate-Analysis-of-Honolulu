@@ -3,7 +3,7 @@ This project is using sqlalchemy to do some climate analysis in Honolulu, Hawaii
 
 ## 1 - Climate Analysis and Exploration
 
-I use Python and SQLAlchemy to do basic climate analysis and data exploration of the climate database. All of the following analysis are completed using SQLAlchemy ORM queries, Pandas, and Matplotlib. I use SQLAlchemy `create_engine` to connect to hawaii sqlite database and use SQLAlchemy `automap_base()` to reflect the tables into classes and save a reference to those classes called `Station` and `Measurement`.I link Python to the database by creating an SQLAlchemy session.
+I use Python and SQLAlchemy to do basic climate analysis and data exploration of the climate database. All of the following analyses are completed using SQLAlchemy ORM queries, Pandas, and Matplotlib. I use SQLAlchemy `create_engine` to connect to hawaii sqlite database, use SQLAlchemy `automap_base()` to reflect the tables into classes, and save a reference to those classes called `Station` and `Measurement`. I link Python to the database by creating an SQLAlchemy session.
 
 ### Precipitation Analysis
 
@@ -21,7 +21,7 @@ I design a query to calculate the total number of stations in the dataset.And a 
 
 ## 2 - Climate App
 
-I design a Flask API based on the queries that you have just developed.
+I design a Flask API based on the queries above.
 
 ### Routes
 
