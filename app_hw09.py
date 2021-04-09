@@ -88,7 +88,7 @@ def tobs():
 
     # check for leap year
     if calendar.isleap(year_no) and month_no==2 and date_no==29:
-        year_ago=dt.datetime.strptime(last_date[0],'%Y-%m-%d').date()- dt.timedelta(days=365)
+        year_ago=dt.datetime.strptime(last_date[0],'%Y-%m-%d').date()- dt.timedelta(days=366)
     else:
         year_ago=dt.datetime.strptime(f'{year_no-1}-{month_no}-{date_no}','%Y-%m-%d').date()
    
