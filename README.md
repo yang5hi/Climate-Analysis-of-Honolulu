@@ -63,7 +63,7 @@ I attempt to find out if there is a meaningful difference between the temperatur
 
 I use the historical data in the dataset find out what the temperature has previously looked like from August first to August seventh . Then I plot the min, avg, and max temperature from the query as a bar chart.
 
-    ![temperature](Images/temperature.png)
+  ![temperature](Images/temperature.png)
 
 ### Daily Rainfall Average
 
