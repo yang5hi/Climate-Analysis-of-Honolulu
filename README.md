@@ -1,4 +1,4 @@
-# sqlalchemy-challenge
+# Climate Analysis of Honolulu, Hawaii
 This project is using sqlalchemy to do some climate analysis in Honolulu, Hawaii.
 
 ## 1 - Climate Analysis and Exploration
